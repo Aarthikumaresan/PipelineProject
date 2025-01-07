@@ -1,16 +1,17 @@
 Feature: User login functionality
 
-  Background: 
-    Given the user is on the login page
-
   Scenario: Successful login with valid credentials
-    When the user enters valid username and password
-    And the user clicks on the login button
-    Then the user should be redirected to the dashboard
-    And quit browser1
+    Given User should enter valid username and password
+    When User clicks the submit button
+    Then User should be redirected to the dashboard
 
-  Scenario: UnSuccessful login with valid credentials
-    When the user enters invalid username and password
-    And the user clicks on the login button
-    Then the error message should be displayed
-    And quit browser2
+  Scenario Outline: Validating invalid username and password
+    Given User should enter invalid "<Username>" and "<Password>"
+    When User clicks the submit button
+    Then The error message should be displayed
+
+    Examples: 
+      | Username                         | Password   |
+      | aarthi.kumaresan@expleogroup.com | Aarthi@12  |
+      | aarthi.kumaresan@expleo.com      | Aarthi@123 |
+      | aarthi.kumaresan@expleo.com      | Aarthi@13  |

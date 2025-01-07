@@ -8,15 +8,15 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="src\\test\\resources\\Login.feature", 
-		glue = "steps",
+		features ="src/test/resources/Login.feature", 
+		glue = {"steps","hooks"},
 		plugin= {"pretty", "json:target/cucumber.json"},
-		dryRun = true
+		dryRun = false
 		
 	//	snippets = SnippetType.CAMELCASE
 	)
 
 public class Runner {
 	
-
+	
 }
