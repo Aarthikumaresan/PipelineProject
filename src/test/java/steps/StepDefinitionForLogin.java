@@ -36,6 +36,7 @@ public class StepDefinitionForLogin extends allDrivers{
 	public void user_should_be_redirected_to_the_dashboard() throws InterruptedException {
 		System.out.println("Logged successfully");
 		Thread.sleep(2000);
+		
 		WebElement logout_btn = driver.findElement(By.xpath("//button[text()='Logout']"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", logout_btn);
 		System.out.println("Login Successful");
