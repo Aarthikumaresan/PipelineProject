@@ -8,11 +8,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="src\\test\\resources\\ForgotPassword.feature",
+		features ="src\\test\\resources",
 		glue = {"steps","hooks"},
 		plugin= {"pretty", "json:target/cucumber.json", "html:target/cucumber.html"},
-		dryRun = false
-		//tags="@All_Scenarios"
+		dryRun = false,
+		tags="@All_Scenarios"
 		
 	//	snippets = SnippetType.CAMELCASE
 	)
