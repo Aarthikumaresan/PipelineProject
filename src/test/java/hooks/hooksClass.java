@@ -9,8 +9,6 @@ import io.cucumber.java.Before;
 
 public class hooksClass extends allDrivers {
 
-
-
 	@Before
 	public void launch() {
 

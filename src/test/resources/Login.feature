@@ -1,3 +1,5 @@
+@All_Scenarios
+
 Feature: User login functionality
 
   Scenario: Successful login with valid credentials
