@@ -1,5 +1,4 @@
 @All_Scenarios
-
 Feature: Forgot Password
 
   Scenario Outline: user enters the forgot password

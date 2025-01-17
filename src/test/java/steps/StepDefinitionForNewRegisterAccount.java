@@ -1,17 +1,13 @@
 package steps;
-
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import drivers.allDrivers;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 public class StepDefinitionForNewRegisterAccount extends allDrivers{
 	
 	@Given("useris on the login page with valid credential")
@@ -49,7 +45,7 @@ public class StepDefinitionForNewRegisterAccount extends allDrivers{
 	@When("user enters Email and Password")
 	public void user_enters_email_and_password() {
 		driver.get("http://192.168.99.141:3000/");
-		driver.findElement(By.id("username")).sendKeys("aarthi13@gmail.com");
+		driver.findElement(By.id("username")).sendKeys("aarthi14@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("Aarth@i23");
 	}
 
