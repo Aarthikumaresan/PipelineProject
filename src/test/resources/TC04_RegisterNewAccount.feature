@@ -12,6 +12,6 @@ Feature: Register New Account
 
     Examples: 
       | email             | password   | checkpassword |
-      | aarthi14@gmail.com | Aarthi@123 | Aarthi@123    |
+      | aarthi15@gmail.com | Aarthi@123 | Aarthi@123    |
 
       
