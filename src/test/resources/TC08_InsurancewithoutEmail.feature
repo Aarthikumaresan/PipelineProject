@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: New Insurance Fields
+Feature: New Insurance Fields without emai
 Author: Aarthi
 
 Scenario: Validation of New Insurance Fields without giving email
