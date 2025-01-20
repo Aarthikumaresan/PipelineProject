@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: New Insurance Fields without name
+Feature: Insurance Fields without name
 Author: Aarthi
 
 Scenario: Validation of New Insurance Fields without giving name

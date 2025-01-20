@@ -4,11 +4,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features ="src\\test\\resources\\TC10_QuateGeneration.feature",
+		features ="src\\test\\resources",
 		glue = {"steps","hooks"},
 		plugin= {"pretty", "json:target/cucumber.json", 
 				"html:target/cucumber.html"},
-		//tags="@All_Scenarios",
+		tags="@All_Scenarios",
 		dryRun = false
 		//snippets = SnippetType.CAMELCASE
 		)
