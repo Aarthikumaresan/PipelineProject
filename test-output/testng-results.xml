@@ -1,299 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T21:16:29 IST" name="Default suite" finished-at="2025-01-17T21:22:09 IST" duration-ms="340073">
+  <suite started-at="2025-01-20T14:46:58 IST" name="Default suite" finished-at="2025-01-20T14:47:18 IST" duration-ms="20451">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-17T21:16:29 IST" name="Default test" finished-at="2025-01-17T21:22:09 IST" duration-ms="340073">
+    <test started-at="2025-01-20T14:46:58 IST" name="Default test" finished-at="2025-01-20T14:47:18 IST" duration-ms="20451">
       <class name="RunnerClass.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:16:29 IST" name="setUpClass" finished-at="2025-01-17T21:16:29 IST" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-20T14:46:58 IST" name="setUpClass" finished-at="2025-01-20T14:46:58 IST" duration-ms="505" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@58b3eb1]]>
+                <![CDATA[org.testng.TestRunner@8a98f38]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:16:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:16:39 IST" duration-ms="10093" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Successful login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:16:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:16:47 IST" duration-ms="7289" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating invalid username and password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:16:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:16:56 IST" duration-ms="9615" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating invalid username and password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:16:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:17:04 IST" duration-ms="7373" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating invalid username and password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:17:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:17:22 IST" duration-ms="18474" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating the policy initiation page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Policy Initiation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:17:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:17:42 IST" duration-ms="20136" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating New Insurance page using policy initiation page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Policy Initiation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:17:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:18:01 IST" duration-ms="18951" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters insurance policy details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:18:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:18:20 IST" duration-ms="18456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters insurance policy details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:18:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:18:43 IST" duration-ms="22809" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters insurance policy details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:18:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:19:05 IST" duration-ms="22408" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters insurance policy details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:19:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:19:28 IST" duration-ms="22618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters insurance policy details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:19:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:19:41 IST" duration-ms="13431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user register the new account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register New Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:19:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:20:01 IST" duration-ms="19565" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user deletes the insurance policy"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Delete Policy"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:20:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:20:11 IST" duration-ms="10947" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user enters the forgot password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Forgot Password"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:20:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:20:47 IST" duration-ms="35059" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validation of New Insurance Fields without giving name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance Fields"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:20:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:21:19 IST" duration-ms="32870" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validation of New Insurance Fields without giving email"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["New Insurance Fields"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:21:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:21:45 IST" duration-ms="25761" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Making payment on payment page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Payment Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:21:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-17T21:22:09 IST" duration-ms="23544" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-20T14:46:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-20T14:47:18 IST" duration-ms="19848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-17T21:22:09 IST" name="tearDownClass" finished-at="2025-01-17T21:22:09 IST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.Runner@385e9564]" started-at="2025-01-20T14:47:18 IST" name="tearDownClass" finished-at="2025-01-20T14:47:18 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
