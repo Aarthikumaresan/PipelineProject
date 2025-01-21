@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Insurance Fields without name
+Feature: TC07_Insurance Fields without name
 Author: Aarthi
 
 Scenario: Validation of New Insurance Fields without giving name

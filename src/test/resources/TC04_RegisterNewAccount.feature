@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Register New Account
+Feature: TC04_Register New Account
 
   Scenario Outline: user register the new account
     Given useris on the login page with valid credential
@@ -12,6 +12,6 @@ Feature: Register New Account
 
     Examples: 
       | email             | password   | checkpassword |
-      | aarthi7@gmail.com | Aarthi@123 | Aarthi@123    |
+      | aarthi17@gmail.com | Aarthi@123 | Aarthi@123    |
 
       

@@ -45,7 +45,7 @@ public class StepDefinitionForNewRegisterAccount extends allDrivers{
 	@When("user enters Email and Password")
 	public void user_enters_email_and_password() {
 		driver.get("http://192.168.99.141:3000/");
-		driver.findElement(By.id("username")).sendKeys("aarthi7@gmail.com");
+		driver.findElement(By.id("username")).sendKeys("aarthi17@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("Aarth@i23");
 	}
 

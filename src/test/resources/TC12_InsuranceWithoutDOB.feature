@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Insurance Fields without DOB
+Feature: TC12_Insurance Fields without DOB
   Author: Aarthi
 
   Scenario: Validation of New Insurance Fields without giving Address

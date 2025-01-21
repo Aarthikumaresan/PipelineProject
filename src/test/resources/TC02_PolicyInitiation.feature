@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Policy Initiation
+Feature: TC02_Policy Initiation
 
   Scenario Outline: Validating the policy initiation page
     Given user is on the login page with valid credential

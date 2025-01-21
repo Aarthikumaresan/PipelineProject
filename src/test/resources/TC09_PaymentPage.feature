@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Payment Page
+Feature: TC09_Payment Page
   Author: Aarthi
 
   Scenario: Making payment on payment page

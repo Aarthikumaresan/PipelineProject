@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: User login functionality
+Feature: TC01_User login functionality
 
   Scenario: Successful login with valid credentials
     Given User should enter valid username and password

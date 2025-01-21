@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Forgot Password
+Feature: TC06_Forgot Password
 
   Scenario Outline: user enters the forgot password
     Given useris onthe login page with valid credential

@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Quate Generation
+Feature: TC10_Quate Generation
   Author: Aarthi
 
   Scenario: Validating the Quate Generation Page

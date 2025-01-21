@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Delete Policy
+Feature: TC05_Delete Policy
 
   Scenario: user deletes the insurance policy
     Given user is on the login page with valid credentials

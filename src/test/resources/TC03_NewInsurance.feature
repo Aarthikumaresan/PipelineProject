@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: New Insurance
+Feature: TC03_New Insurance
 
   Scenario Outline: user enters insurance policy details
     Given user is on the login page with valid credential
