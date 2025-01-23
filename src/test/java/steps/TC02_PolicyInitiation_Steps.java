@@ -9,7 +9,7 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForPolicyInitiation extends allDrivers {
+public class TC02_PolicyInitiation_Steps extends allDrivers {
 
 	@When("user click the policy initiation")
 	public void user_click_the_policy_initiation() throws InterruptedException {

@@ -14,7 +14,7 @@ import io.cucumber.messages.types.Duration;
 
 import java.time.*;
 
-public class StepDefForAdmin extends allDrivers {
+public class TC13_Admin_Steps extends allDrivers {
 	
 	@When("user clicks the Admin panel")
 	public void user_clicks_the_admin_panel() throws InterruptedException {

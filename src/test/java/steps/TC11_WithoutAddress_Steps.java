@@ -9,15 +9,14 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefForDOB extends allDrivers {
+public class TC11_WithoutAddress_Steps extends  allDrivers{
 	
-	@When("User enters all the Fields Without DOB")
-	public void user_enters_all_the_fields_without_dob() throws InterruptedException {
-		
+	@When("User enters all the Fields Without Address")
+	public void user_enters_all_the_fields_without_address() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='Name']")).sendKeys("Aarthi");
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("aarthi@gmail.com");
-		driver.findElement(By.xpath("//input[@name='Address']")).sendKeys("24,manila street");
-		driver.findElement(By.id("DateOfBirth")).sendKeys("");
+		driver.findElement(By.xpath("//input[@name='Address']")).sendKeys("");
+		driver.findElement(By.id("DateOfBirth")).sendKeys("10-28-2000");
 		WebElement gender = driver.findElement(By.xpath("//input[@value='Female']"));
 		gender.click();
 		Thread.sleep(2000);
@@ -40,17 +39,15 @@ public class StepDefForDOB extends allDrivers {
 		driver.findElement(By.xpath("//input[@value='No']")).click();
 	    
 	}
-	  
 	
 
-	@Then("user geting error message after submit the button")
-	public void user_geting_error_message_after_submit_the_button() {
-		
-		String ErrorDOB = driver.findElement(By.xpath(("//p[normalize-space()='*Date of Birth is required']"))).getText();
-		System.out.println(ErrorDOB);
-		Assert.assertEquals(ErrorDOB, "*Date of Birth is required");
+	@Then("user gettingg error message after submit the button")
+	public void user_gettingg_error_message_after_submit_the_button() {
+		String ErrorAddress = driver.findElement(By.xpath(("//p[normalize-space()='*Address is required']"))).getText();
+		System.out.println(ErrorAddress);
+		Assert.assertEquals(ErrorAddress, "*Address is required");
 	   
 	}
-
+	
 
 }

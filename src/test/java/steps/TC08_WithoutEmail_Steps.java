@@ -9,7 +9,7 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForEmail extends allDrivers {
+public class TC08_WithoutEmail_Steps extends allDrivers {
 	
 	@When("User enters all the Fields Without email")
 	public void user_enters_all_the_fields_without_email() throws InterruptedException {

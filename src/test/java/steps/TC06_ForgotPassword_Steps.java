@@ -7,7 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForForgotPassword extends allDrivers {
+public class TC06_ForgotPassword_Steps extends allDrivers {
 	@Given("useris onthe login page with valid credential")
 	public void useris_onthe_login_page_with_valid_credential() {
 		System.out.print("Login");

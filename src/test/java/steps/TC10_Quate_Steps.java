@@ -9,7 +9,7 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefForQuate extends allDrivers{
+public class TC10_Quate_Steps extends allDrivers{
 	
 	@When("user click the quate generation")
 	public void user_click_the_quate_generation() {

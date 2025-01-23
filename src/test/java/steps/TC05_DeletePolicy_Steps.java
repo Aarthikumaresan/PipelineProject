@@ -14,7 +14,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForDeletePolicy extends allDrivers {
+public class TC05_DeletePolicy_Steps extends allDrivers {
 
 	@Given("user is on the login page with valid credentials")
 	public void user_is_on_the_login_page_with_valid_credentials() throws InterruptedException {

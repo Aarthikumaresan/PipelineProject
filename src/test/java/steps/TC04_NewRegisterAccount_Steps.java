@@ -8,7 +8,7 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-public class StepDefinitionForNewRegisterAccount extends allDrivers{
+public class TC04_NewRegisterAccount_Steps extends allDrivers{
 	
 	@Given("useris on the login page with valid credential")
 	public void useris_on_the_login_page_with_valid_credential() {

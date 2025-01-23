@@ -11,7 +11,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForName extends allDrivers{
+public class TC07_WithoutName_Steps extends allDrivers{
 	
 	@Given("user login the page with valid credential")
 	public void user_login_the_page_with_valid_credential() throws InterruptedException {

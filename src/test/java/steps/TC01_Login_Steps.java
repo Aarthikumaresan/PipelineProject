@@ -18,7 +18,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitionForLogin extends allDrivers{
+public class TC01_Login_Steps extends allDrivers{
 	
     //=====VALID SCENARIO=================//
 

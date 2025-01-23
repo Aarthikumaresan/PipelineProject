@@ -8,7 +8,7 @@ import drivers.allDrivers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefForPayment extends allDrivers{
+public class TC09_Payment_Steps extends allDrivers{
 	@When("user click Payment Page")
 	public void user_click_payment_page() throws InterruptedException {
 		driver.findElement(By.xpath("//a[normalize-space()='Payment Page']")).click();
