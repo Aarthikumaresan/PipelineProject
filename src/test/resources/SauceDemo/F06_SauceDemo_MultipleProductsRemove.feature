@@ -1,6 +1,6 @@
 @All_Scenarios @Sauce_Demo
-Feature: SD21_Suthir_SauceDemo_Multiple Remove Products
-  Author: Suthir
+Feature: F06_SauceDemo_Multiple Remove Products
+  Author: Aarthi
 
   Scenario: Successful login with valid credentials
     Given User should be in Sauce Demo login page

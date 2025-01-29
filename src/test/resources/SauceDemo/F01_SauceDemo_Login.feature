@@ -1,6 +1,6 @@
 @All_Scenarios 
 @Sauce_Demo
-Feature: SD16_SauceDemo_Aarthi_Login faunctionality
+Feature: F01_SauceDemo_Login faunctionality
   Author: Aarthi
 
   Scenario: SauceDemo Successful login with valid credentials

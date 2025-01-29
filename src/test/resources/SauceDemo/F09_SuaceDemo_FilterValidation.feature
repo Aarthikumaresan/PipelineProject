@@ -1,4 +1,5 @@
-Feature: Filter validation
+Feature: F09_Filter validation
+  Author: Aarthi
 
   Scenario: Validation of filers
     Given User navigate to the Sauce Demo login page

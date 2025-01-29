@@ -1,7 +1,7 @@
 #@Alltheproducts
-Feature: Add all the Products 
+Feature: F07_Add all the Products 
 
-#Author: Suthir
+Author: Aarthi
 
   Scenario: Successful login with valid credentials
     Given User navigate to the Sauce Demo login page

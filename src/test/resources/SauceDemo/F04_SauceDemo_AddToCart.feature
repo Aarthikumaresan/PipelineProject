@@ -1,6 +1,6 @@
 @All_Scenarios @Sauce_Demo
-Feature: SD19_SauceDemo_Suthir_Add to cart product
-  Author: Suthir
+Feature: F04_SauceDemo_Add to cart product
+  Author: Aarthi
 
   Scenario: Successful login with valid credentials
     Given User should be in Sauce Demo login page
