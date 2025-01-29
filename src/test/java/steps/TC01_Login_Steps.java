@@ -37,7 +37,7 @@ public class TC01_Login_Steps extends allDrivers{
 		System.out.println("Logged successfully");
 		Thread.sleep(2000);
 		
-		WebElement logout_btn = driver.findElement(By.xpath("//button[text()='Logout']"));
+		WebElement logout_btn = driver.findElement(By.xpath("//button[@class='w-64 text-left h-6']"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", logout_btn);
 		System.out.println("Login Successful");
 	}
