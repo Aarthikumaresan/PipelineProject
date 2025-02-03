@@ -1,3 +1,4 @@
+@All_Scenarios
 Feature: Aarthi_02feb_sportsjam_Login
   
   Author: Aarthi

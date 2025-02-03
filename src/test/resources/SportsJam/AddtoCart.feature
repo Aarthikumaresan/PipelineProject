@@ -1,3 +1,4 @@
+@All_Scenarios
 Feature: Aarthi_02feb_sportsjam_Add to Cart
 
 Scenario: products are added to the cart

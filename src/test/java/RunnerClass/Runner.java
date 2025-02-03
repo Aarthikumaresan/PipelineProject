@@ -5,7 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = {"src/test/resources/Expleosurance", 
-					"src/test/resources/SauceDemo"}, 
+					"src/test/resources/SauceDemo",
+					"src/test/resources/SportsJam"}, 
 		glue = {"steps","hooks"},
 		plugin= {"pretty", "json:target/cucumber.json", 
 							"html:target/cucumber.html"},
