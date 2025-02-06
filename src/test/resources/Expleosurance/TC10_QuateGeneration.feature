@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC10_Quate Generation
+Feature: Aarthi_Jan242025_ExpleoInsurance_Quate Generation
   Author: Aarthi
 
   Scenario: Validating the Quate Generation Page

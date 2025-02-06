@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: F04_SauceDemo_Add to cart product
+Feature: Aarthi_Feb022025_SauceDemo_Add to cart product
   Author: Aarthi
 
   Scenario: Successful login with valid credentials

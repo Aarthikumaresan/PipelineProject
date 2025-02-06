@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC06_Forgot Password
+Feature: Aarthi_Jan212025_ExpleoInsurance_Forgot Password
 
   Scenario Outline: user enters the forgot password
     Given useris onthe login page with valid credential

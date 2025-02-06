@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC11_Insurance Fields without Address
+Feature: Aarthi_Jan272025_ExpleoInsurance_Insurance Fields without Address
   Author: Aarthi
 
   Scenario: Validation of New Insurance Fields without giving Address

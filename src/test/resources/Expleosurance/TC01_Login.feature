@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC01_User login functionality
+Feature: Aarthi_Jan212025_ExpleoInsurance_User login functionality
 
   Scenario: Successful login with valid credentials
     Given User should enter valid username and password

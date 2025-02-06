@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: F06_SauceDemo_Multiple Remove Products
+Feature: Aarthi_jan31022025_SauceDemo_Multiple Remove Products
   Author: Aarthi
 
   Scenario: Successful login with valid credentials

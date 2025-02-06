@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Aarthi_02feb_sportsjam_Search Products
+Feature: Aarthi_Feb022025_sportsjam_Search Products
 
 Scenario: Searth the products
 

@@ -1,4 +1,4 @@
-Feature: F09_Filter validation
+Feature: Aarthi_Jan31_SauceDemo_Filter validation
   Author: Aarthi
 
   Scenario: Validation of filers

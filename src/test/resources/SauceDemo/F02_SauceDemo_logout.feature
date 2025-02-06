@@ -1,6 +1,6 @@
 @All_Scenarios 
 @Sauce_Demo
-Feature: F02_SauceDemo_Logout Sauce Demo
+Feature: Aarthi_Feb042025_SauceDemo_Logout Sauce Demo
   Author: Aarthi
 
   Scenario: Successful login with valid credentials

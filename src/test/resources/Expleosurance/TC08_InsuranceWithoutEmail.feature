@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC08_Insurance Fields without email
+Feature: Aarthi_Jan212025_ExpleoInsurance_Insurance Fields without email
 Author: Aarthi
 
 Scenario: Validation of New Insurance Fields without giving email

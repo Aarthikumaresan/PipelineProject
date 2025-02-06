@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC04_Register New Account
+Feature: Aarthi_Feb062025_ExpleoInsurance_Register New Account
 
   Scenario Outline: user register the new account
     Given useris on the login page with valid credential

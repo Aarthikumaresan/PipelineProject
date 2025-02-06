@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC14_Insurance Fields without Gender
+Feature: Aarthi_Jan282025_ExpleoInsurance_Insurance Fields without Gender
 Author: Aarthi
 
 Scenario: Validation of New Insurance Fields without giving name

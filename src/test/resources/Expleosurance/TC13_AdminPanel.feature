@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC13_Admin Panel
+Feature: Aarthi_Jan272025_ExpleoInsurance_Admin Panel
 
   Scenario Outline: Delete the Manager Users
     Given user login the page with valid credential

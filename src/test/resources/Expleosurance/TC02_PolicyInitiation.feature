@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC02_Policy Initiation
+Feature: Aarthi_Jan212025_ExpleoInsurance_Policy Initiation
 
   Scenario Outline: Validating the policy initiation page
     Given user is on the login page with valid credential

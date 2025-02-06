@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC09_Payment Page
+Feature: Aarthi_Jan232025_ExpleoInsurance_Payment Page
   Author: Aarthi
 
   Scenario: Making payment on payment page

@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: TC03_New Insurance
+Feature: Aarthi_Jan212025_ExpleoInsurance_New Insurance
 
   Scenario Outline: user enters insurance policy details
     Given user is on the login page with valid credential

@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Aarthi_02feb_sportsjam_Add to Cart
+Feature: Aarthi_Feb022025_sportsjam_Add to Cart
 
 Scenario: products are added to the cart
 Given user ison the login page
